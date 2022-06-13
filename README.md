@@ -50,6 +50,10 @@ format:
 
 This book is now ready to be rendered as PDF with Thai font.
 
+```shell
+quarto render
+```
+
 It's done!
 
 
