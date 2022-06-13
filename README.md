@@ -12,8 +12,8 @@ The key is to include thai language setting in the LaTeX preamble of the Quarto 
 
 These are the output of this repo: 
 
--   [**PDF Book in Thai**](./docs/Quarto-Book-ภาษาไทย.pdf) (and [LaTeX output](Quarto-Book-ภาษาไทย.tex))
--   **HTML Book**
+-   [**PDF Book in Thai**](./docs/Quarto-Book-ไทย.pdf) (and [LaTeX output](Quarto-Book-ไทย.tex))
+-   [**HTML Book**](https://lightbridge-ks.github.io/quarto-book-thai-pdf/)
 
 
 ## Step 1: Get Thai LaTeX Preamble Setting
@@ -33,9 +33,9 @@ It will create [`thai-preamble.tex`](thai-preamble.tex) in your project, which i
 
 ## Step 2: Include Thai Preamble
 
-In the Quarto config (`_quarto.yml` or `_metadata.yml`), add `thai-preamble.tex` to [include in the LaTeX preamble](https://quarto.org/docs/output-formats/pdf-basics.html#latex-includes) in the `pdf` format, like so.
+In the Quarto config (`_quarto.yml` or `_metadata.yml`), add `thai-preamble.tex` to [include in the LaTeX preamble](https://quarto.org/docs/output-formats/pdf-basics.html#latex-includes) to the `pdf` field, like so.
 
-[**_quarto.yml**](./_quarto.yml)
+[**`_quarto.yml`**](./_quarto.yml)
 
 ```yml
 format:
