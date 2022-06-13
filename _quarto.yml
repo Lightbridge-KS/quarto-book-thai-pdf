@@ -3,9 +3,10 @@ project:
   output-dir: docs # default output directory is `_book`
 
 book:
-  title: "Quarto Book ภาษาไทย"
+  title: "Quarto Book ไทย"
   author: "กิตติพศ ศิริวงศ์รังสรร"
   date: "6/13/2022"
+  repo-url: https://github.com/Lightbridge-KS/quarto-book-thai-pdf
   chapters:
     - index.qmd
     - intro.qmd
