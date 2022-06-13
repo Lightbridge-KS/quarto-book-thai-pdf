@@ -15,8 +15,11 @@ These are the output of this repo:
 -   [**PDF Book in Thai**](./docs/Quarto-Book-ไทย.pdf) (and [LaTeX output](Quarto-Book-ไทย.tex))
 -   [**HTML Book**](https://lightbridge-ks.github.io/quarto-book-thai-pdf/)
 
+## Step 1: Create Quarto Book
 
-## Step 1: Get Thai LaTeX Preamble Setting
+Create Quarto book skeleton as [explained here](https://quarto.org/docs/books/), then enter into your book directory.
+
+## Step 2: Get Thai LaTeX Preamble Setting
 
 If you use `R`, [`{thaipdf}`](https://lightbridge-ks.github.io/thaipdf/) R package can automate this process.
 
@@ -31,7 +34,7 @@ It will create [`thai-preamble.tex`](thai-preamble.tex) in your project, which i
 
 
 
-## Step 2: Include Thai Preamble
+## Step 3: Include Thai Preamble
 
 In the Quarto config (`_quarto.yml` or `_metadata.yml`), add `thai-preamble.tex` to [include in the LaTeX preamble](https://quarto.org/docs/output-formats/pdf-basics.html#latex-includes) to the `pdf` field, like so.
 
