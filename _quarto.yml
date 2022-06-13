@@ -1,0 +1,27 @@
+project:
+  type: book
+  output-dir: docs # default output directory is `_book`
+
+book:
+  title: "Quarto Book ภาษาไทย"
+  author: "กิตติพศ ศิริวงศ์รังสรร"
+  date: "6/13/2022"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  pdf:
+    include-in-header: "thai-preamble.tex"
+    keep-tex: true # to keep intermediate LaTeX
+    documentclass: scrreprt
+  html:
+    theme: cosmo
+
+
+
+

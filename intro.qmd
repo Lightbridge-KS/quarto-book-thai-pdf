@@ -1,0 +1,9 @@
+# คำแนะนำเบื้องต้น
+
+หนังสือเล่มนี้สร้างจากภาษา markdown และ executable code
+
+ดู @knuth84 สำหรับแนวคิดของ literate programming
+
+```{r}
+1 + 1
+```

@@ -1,0 +1,14 @@
+{
+  "hash": "8bae72bd4dbe1f2ff4418633c8bc3f91",
+  "result": {
+    "markdown": "# คำแนะนำเบื้องต้น\n\nหนังสือเล่มนี้สร้างจากภาษา markdown และ executable code\n\nดู @knuth84 สำหรับแนวคิดของ literate programming\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

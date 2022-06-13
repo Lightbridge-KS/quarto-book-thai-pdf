@@ -1,0 +1,9 @@
+# คำนำ {.unnumbered}
+
+สวัสดีชาวโลก นี่คือ Quarto book.
+
+ศึกษาเกี่ยวกับ Quarto books เพิ่มเติมได้ที่ <https://quarto.org/docs/books>.
+
+```{r}
+1 + 1
+```
