@@ -1,10 +1,10 @@
 # Quarto Book in Thai Language with PDF
 
-> This repo demonstrate how to use **Thai language 🇹🇭** in a **[Quarto](https://quarto.org) Book** that render to **PDF**. 
+> This repo demonstrate how to use **Thai language 🇹🇭** in a **[Quarto Book](https://quarto.org/docs/books/)** that renders to **PDF**. 
 
 ## Introduction
 
-Quarto book in Thai language can be rendered to MS Word or HTML format out of the box, but PDF requires some setup. I'll show you how to do that in this tutorial.
+Quarto book in Thai language can be rendered to MS Word or HTML format out of the box, but **PDF requires some setup**. I'll show you how to do that in this tutorial.
 
 The key is to include thai language setting in the LaTeX preamble of the Quarto book.
 
