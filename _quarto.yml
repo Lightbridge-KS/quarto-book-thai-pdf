@@ -18,7 +18,7 @@ bibliography: references.bib
 format:
   pdf:
     include-in-header: "thai-preamble.tex"
-    keep-tex: true # to keep intermediate LaTeX
+    keep-tex: true # (optional) `true` to keep intermediate LaTeX
     documentclass: scrreprt
   html:
     theme: cosmo

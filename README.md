@@ -46,7 +46,7 @@ format:
     include-in-header: "thai-preamble.tex"
 ```
 
-(You can also keep intermediate LaTeX for debug with `keep-tex: true`)
+(You can also keep intermediate LaTeX for debugging with `keep-tex: true`)
 
 This book is now ready to be rendered as PDF with Thai font.
 
